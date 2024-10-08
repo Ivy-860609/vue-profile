@@ -1,0 +1,136 @@
+$mouse-display: none; //pointer
+$colordarkgray: #cacaca;
+$colorgray: #808080;
+$colorwhite: white;
+$input-padding: .375rem .75rem;
+
+@mixin btn_theme($color1: $colorgray,$color2: $colorwhite) {
+    border: none;
+    background-color: $color1;
+    margin-left: 10px;
+    color: $color2;
+    cursor: $mouse-display;
+    padding: .375rem .75rem;
+}
+
+%btn_style {
+    background: none;
+    border: none;
+    cursor: $mouse-display;
+}
+
+.todolist {
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center
+}
+
+.todo_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.add_block {
+    display: inline-flex;
+    width: 85%;
+    justify-content: space-around;
+
+    input {
+        border: none;
+        outline-style: none;
+        padding: $input-padding;
+        width: 85%;
+    }
+
+    button {
+        @include btn_theme;
+    }
+}
+
+.nav_block {
+    margin-top: 15px;
+    border-bottom: 1px solid $colorgray;
+    width: 100%;
+
+    button {
+        @include btn_theme($color1:$colorwhite,$color2:$colorgray);
+    }
+}
+
+ul {
+    width: 85%;
+    height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+    scrollbar-width: thin;
+    padding: inherit;
+
+    li {
+        width: 100%;
+        height: 50px;
+        list-style: none;
+        background-color: $colorwhite;
+        padding: 13px;
+        cursor: $mouse-display;
+
+        &:hover {
+            background-color: $colordarkgray;
+        }
+    }
+
+    input {
+        border: 1px solid $colordarkgray;
+        border-radius: 5px;
+        outline-style: none;
+        padding: $input-padding;
+        width: 85%;
+        margin-top: -5px;
+    }
+
+    label {
+        margin-left: 5px;
+        cursor: $mouse-display;
+    }
+
+    span {
+        float: right;
+    }
+}
+
+.btn_finish, .btn_check {
+    @extend %btn_style;
+    float: left;
+}
+
+.btn_save {
+    @extend %btn_style;
+    color: green;
+    margin-right: 5px
+}
+
+.btn_cancle {
+    @extend %btn_style;
+    color: darkred
+}
+
+.btn_delete {
+    @extend %btn_style;
+    float: right
+}
+
+.line-through {
+    text-decoration: line-through
+}
+
+.active {
+    background-color: $colorgray !important;
+    color: $colorwhite !important;
+}

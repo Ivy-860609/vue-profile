@@ -1,0 +1,91 @@
+$dark-color: #909090 ;
+
+@mixin margin_set($top,$right,$bottom,$left) {
+    margin: $top $right $bottom $left;
+}
+
+.singleProduct {
+    width: 250px;
+    height: 270px;
+    border: 1px solid $dark-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include margin_set($top:15px,$right:0,$bottom:10px,$left:0px);
+}
+
+.imgDiv {
+    width: 220px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    @include margin_set($top:15px,$right:0,$bottom:0,$left:0);
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.priceDiv {
+    font-family: fantasy;
+    z-index: 1;
+    position: absolute;
+    @include margin_set($top:0,$right:5px,$bottom:5px,$left:0);
+    color: white;
+    text-shadow: $dark-color 0.1em 0.1em 0.2em;
+}
+
+.priceBackGround {
+    width: 50px;
+    height: 50px;
+    top: 100%;
+    float: inline-end;
+    position: sticky;
+    border-top: 65px solid transparent;
+    border-right: 65px solid #c2c2c2;
+}
+
+.nameDiv {
+    margin: 3px;
+
+    text {
+        font-family: emoji;
+        font-size: 16px;
+        font-weight: bolder
+    }
+}
+
+.countDiv {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnMath {
+    color: white;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 100%;
+    background-color: $dark-color;
+    margin: 3px
+}
+
+input {
+    width: 50px;
+    border: 1px solid $dark-color;
+    border-radius: 50px;
+    @include margin_set($top:0,$right:5px,$bottom:0,$left:5px);
+    text-align: center;
+}
+
+.btnCart {
+    color: white;
+    border: none;
+    border-radius: 50px;
+    background-color: $dark-color
+}
+
+button:hover {
+    color: #2e2e2e;
+    background-color: #d1d1d1
+}
