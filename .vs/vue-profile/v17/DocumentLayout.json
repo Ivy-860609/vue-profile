@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\.github\\workflows\\deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\src\\App.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\src\\views\\ShoppingCartView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\views\\ShoppingCartView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,65 +22,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "deploy.yml",
-              "DocumentMoniker": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\.github\\workflows\\deploy.yml",
-              "RelativeDocumentMoniker": ".github\\workflows\\deploy.yml",
-              "ToolTip": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\.github\\workflows\\deploy.yml",
-              "RelativeToolTip": ".github\\workflows\\deploy.yml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAADYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-10-08T10:49:54.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-08T07:46:52.813Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "vite.config.js",
-              "DocumentMoniker": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\vite.config.js",
-              "RelativeDocumentMoniker": "vite.config.js",
-              "ToolTip": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\vite.config.js",
-              "RelativeToolTip": "vite.config.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-08T06:53:14.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShoppingCartView.vue",
-              "DocumentMoniker": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\src\\views\\ShoppingCartView.vue",
-              "RelativeDocumentMoniker": "src\\views\\ShoppingCartView.vue",
-              "ToolTip": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\src\\views\\ShoppingCartView.vue",
-              "RelativeToolTip": "src\\views\\ShoppingCartView.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-10-08T06:39:11.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "App.vue",
               "DocumentMoniker": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\src\\App.vue",
               "RelativeDocumentMoniker": "src\\App.vue",
               "ToolTip": "D:\\IT\u9435\u4EBA\u8CFD\\VueTest\\vue-profile\\src\\App.vue",
               "RelativeToolTip": "src\\App.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-10-08T06:03:30.145Z"
+              "WhenOpened": "2024-10-08T06:03:30.145Z",
+              "EditorCaption": ""
             }
           ]
         }
