@@ -3,7 +3,9 @@
     "",
     "\\.github",
     "\\.github\\workflows",
+    "\\public",
     "\\src",
+    "\\src\\assets",
     "\\src\\views"
   ],
   "PreviewInSolutionExplorer": false

@@ -4,7 +4,7 @@
     import HelloWorld from './components/HelloWorld.vue'
     import { useMouse } from '@/assets/useJS/useMouse.js'
 
-    import Logo from '@/assets/logo.png'
+    import Logo from '@/assets/Logo.png'
     import Cursor from '@/assets/cursor.png'
 
 
